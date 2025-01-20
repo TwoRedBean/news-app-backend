@@ -1,6 +1,5 @@
 package com.project.news_page;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
