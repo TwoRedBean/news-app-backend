@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.project.news-page' is invalid and this project uses 'com.project.news_page' instead.
+* The original package name 'com.project.news-app-backend' is invalid and this project uses 'com.project.news_app_backend' instead.
 
 # Getting Started
 

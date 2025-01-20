@@ -1,13 +1,13 @@
-package com.project.news_page;
+package com.project.news_app_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NewsPageApplication {
+public class NewsAppBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NewsPageApplication.class, args);
+		SpringApplication.run(NewsAppBackendApplication.class, args);
 	}
 
 }

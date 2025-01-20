@@ -1,4 +1,4 @@
-package com.project.news_page;
+package com.project.news_app_backend;
 
 import jakarta.persistence.*;
 import lombok.Data;

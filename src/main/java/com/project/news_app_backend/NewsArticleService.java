@@ -1,4 +1,4 @@
-package com.project.news_page;
+package com.project.news_app_backend;
 
 import org.springframework.stereotype.Service;
 
