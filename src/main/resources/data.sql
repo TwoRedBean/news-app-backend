@@ -4,6 +4,7 @@ title varchar(255),
 content varchar(5000)
 );
 
+-- First INSERT statement
 INSERT INTO articles (id, title, content) VALUES (
 1,
 'Shroom Boom: Fungal Rainstorm Leaves Town in a Mush-Understood Situation!',
@@ -41,4 +42,40 @@ Meanwhile, Rocky''s alleged accomplices a group of chipmunks and a very suspicio
 As for Rocky, he''s been relocated to a wildlife rehabilitation center, where he''s reportedly "reflecting on his life choices" and learning to share. When asked for comment, he simply chittered angrily and buried a nearby acorn.
 
 Stay tuned for updates on this nutty scandal!'
+);
+
+-- Third INSERT statement
+INSERT INTO articles (id, title, content) VALUES (
+3,
+'Town in Chaos as Flock of Sheep Forms Cult, Demands Tribute in Lettuce',
+'The peaceful village of Meadowbrook has been thrown into disarray after a flock of sheep, led by a charismatic ram named Sir Baa-raham, formed a cult and began demanding tribute in the form of lettuce. The sheep, who have taken over a local field, are reportedly refusing to graze unless their demands are met.
+
+"It started innocently enough," said farmer Joe Woolley. "They''d just stare at me while I ate my lunch. But then they started blocking the gates and bleating in unison. Now they won''t move unless I bring them a head of lettuce every hour."
+
+The cult, which calls itself "The Flock of the Green Leaf," has grown rapidly, with sheep from neighboring farms abandoning their pastures to join the movement. "It''s like they''ve been brainwashed," said local shepherd Daisy Fleece. "They even have a chant: ''Baa for the Leaf, Baa for the Harvest.''"
+
+Authorities are struggling to contain the situation. "We tried negotiating, but Sir Baa-raham just stared at us and said, ''Lettuce pray,'' before turning his back," said Sheriff Woolly Johnson. "It''s a baa-d situation, no doubt about it."
+
+Residents are divided on how to handle the crisis. Some are calling for a lettuce embargo, while others are secretly leaving offerings of romaine and iceberg in hopes of appeasing the flock. "I just want my field back," sighed Farmer Woolley. "But at this rate, I might have to start growing lettuce instead of wheat."
+
+Stay tuned as this pasture pandemonium unfolds!'
+);
+
+-- Fourth INSERT statement
+INSERT INTO articles (id, title, content) VALUES (
+4,
+'Local Cat Elected Mayor, Promises Unlimited Naps and Laser Pointer Reform',
+'In a historic election, the town of Purrington has elected its first feline mayor: Mr. Whiskers McFluff, a 7-year-old tabby cat. Running on a platform of "More Naps, Less Chaos," Mr. McFluff won by a landslide, capturing 99% of the vote (the remaining 1% was a dog who couldn''t figure out how to use the voting machine).
+
+"I voted for Mr. McFluff because he understands the struggles of the common cat," said one resident. "He promised to ban early morning vacuuming and make every Friday "Catnip Day." How could I not support that?"
+
+Since taking office, Mayor McFluff has wasted no time implementing his policies. His first executive order declared all sunbeams public property, and his second mandated that every household must provide a cardboard box for "emergency napping purposes." He has also vowed to crack down on the "cruel and unusual" use of laser pointers, calling them "a distraction from the real issues."
+
+Not everyone is thrilled with the new administration. "This is an outrage," said local dog owner Barkley Ruff. "He''s clearly biased toward cats. What about us dogs? When do we get our treats?"
+
+Despite the criticism, Mayor McFluff remains popular among his constituents. "He''s the best mayor we''ve ever had," said one cat. "He actually listens to us. Plus, he lets us sit on his desk during meetings."
+
+When asked about his long-term goals, Mayor McFluff simply yawned, stretched, and said, "Nap time first, questions later."
+
+Stay tuned for more updates from Purrington''s purr-fect leader!'
 );
