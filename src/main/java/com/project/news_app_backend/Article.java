@@ -11,5 +11,6 @@ public class Article {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String title;
+    @Column(length = 500)
     private String content;
 }
