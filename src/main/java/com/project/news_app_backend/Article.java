@@ -11,6 +11,8 @@ public class Article {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String title;
+    @Column(name = "image_url")
+    private String imageUrl;
     @Column(length = 500)
     private String content;
 }

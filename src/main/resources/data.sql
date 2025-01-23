@@ -1,13 +1,15 @@
 CREATE TABLE articles (
 id int,
 title varchar(255),
+image_url varchar(255),
 content varchar(5000)
 );
 
 -- First INSERT statement
-INSERT INTO articles (id, title, content) VALUES (
+INSERT INTO articles (id, title, image_url, content) VALUES (
 1,
 'Shroom Boom: Fungal Rainstorm Leaves Town in a Mush-Understood Situation!',
+'https://img.freepik.com/free-vector/hand-drawn-mushroom-cartoon-illustration_52683-127463.jpg?t=st=1737648300~exp=1737651900~hmac=ec50df14a503400b2a74733d6dd15a60cef7e15d0f675c9c26ec7db0750169d9&w=1380',
 'Residents of the small town of Sporeville were left scratching their heads and dodging falling fungi when an unexpected "mushroom monsoon" rained down from the sky yesterday. Witnesses described the bizarre event as a "portobello parade" and a "shiitake shower," with mushrooms of all shapes and sizes plummeting to the ground like edible hailstones.
 
 Local meteorologist Herb Sporling attempted to explain the phenomenon. "It''s not every day you see a fungal flurry like this. My best guess is that a freak windstorm picked up a nearby mushroom farm and decided to redistribute the crop free of charge!"
@@ -24,9 +26,10 @@ So, if you''re in the mood for some free-range, sky-sourced mushrooms, Sporevill
 );
 
 -- Second INSERT statement
-INSERT INTO articles (id, title, content) VALUES (
+INSERT INTO articles (id, title, image_url, content) VALUES (
 2,
 'Breaking News: Local Squirrel Caught Running Underground Acorn Black Market!',
+'https://img.freepik.com/free-vector/hand-drawn-squirrel-cartoon-illustration_23-2151340573.jpg?t=st=1737649530~exp=1737653130~hmac=971d4613210741c4c25cbb951be327c30cc0ef339630087a8f20ab13ca161a02&w=1380',
 'In a shocking turn of events, the quiet town of Nuttingham has been rocked by the discovery of an underground acorn trafficking ring masterminded by none other than a local squirrel named Rocky "The Hoarder" Nutkins. Authorities uncovered the operation after neighbors reported suspicious behavior, including late-night acorn deliveries and an unusually large stash of oak trees in Rocky''s backyard.
 
 According to eyewitnesses, Rocky had been running the operation for years, amassing a fortune in acorns and trading them for premium goods like birdseed, shiny objects, and even the occasional peanut butter sandwich. "I always thought he was just a really hardworking squirrel," said one neighbor. "But then I saw him trading acorns for a diamond earring he found in the park. That''s when I knew something was up."
@@ -45,9 +48,10 @@ Stay tuned for updates on this nutty scandal!'
 );
 
 -- Third INSERT statement
-INSERT INTO articles (id, title, content) VALUES (
+INSERT INTO articles (id, title, image_url, content) VALUES (
 3,
 'Town in Chaos as Flock of Sheep Forms Cult, Demands Tribute in Lettuce',
+'https://img.freepik.com/free-vector/cute-zebra-sheep-reading-book-cartoon-vector-icon-illustration-animal-education-isolated-flat_138676-11128.jpg?t=st=1737650504~exp=1737654104~hmac=edf7b33932ce9f5c739f6018d2f424123e7e7ff00cfe0c118a5e46490593fe28&w=1380',
 'The peaceful village of Meadowbrook has been thrown into disarray after a flock of sheep, led by a charismatic ram named Sir Baa-raham, formed a cult and began demanding tribute in the form of lettuce. The sheep, who have taken over a local field, are reportedly refusing to graze unless their demands are met.
 
 "It started innocently enough," said farmer Joe Woolley. "They''d just stare at me while I ate my lunch. But then they started blocking the gates and bleating in unison. Now they won''t move unless I bring them a head of lettuce every hour."
@@ -62,9 +66,10 @@ Stay tuned as this pasture pandemonium unfolds!'
 );
 
 -- Fourth INSERT statement
-INSERT INTO articles (id, title, content) VALUES (
+INSERT INTO articles (id, title, image_url, content) VALUES (
 4,
 'Local Cat Elected Mayor, Promises Unlimited Naps and Laser Pointer Reform',
+'https://img.freepik.com/premium-vector/cat-funny-pet_444196-30590.jpg?w=1060',
 'In a historic election, the town of Purrington has elected its first feline mayor: Mr. Whiskers McFluff, a 7-year-old tabby cat. Running on a platform of "More Naps, Less Chaos," Mr. McFluff won by a landslide, capturing 99% of the vote (the remaining 1% was a dog who couldn''t figure out how to use the voting machine).
 
 "I voted for Mr. McFluff because he understands the struggles of the common cat," said one resident. "He promised to ban early morning vacuuming and make every Friday "Catnip Day." How could I not support that?"
